@@ -2,8 +2,7 @@
 # Constraint Satisfaction Problem Algorithm and Solver
 
 The class for defining a constraint satisfaction problem (CSP) is quite general, and can be used with many problems. The solver is
-based on min conflicts with weighted assignments (0 or 1 by default, >1 gives preference to that node assignment) used to break the
-tie between two non-conflicting solutions. A good idea would be to have a higher weight for assignments satisfying soft constraints 
+based on min conflicts with weighted assignments (0 or 1 by default, >1 gives preference to that node assignment) used to break the tie between two equally good non-conflicting solutions. A good idea would be to have a higher weight for assignments satisfying soft constraints 
 to attract optimal results.
 
 
