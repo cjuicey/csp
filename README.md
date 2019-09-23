@@ -1,4 +1,3 @@
-# csp
 # Constraint Satisfaction Problem Algorithm and Solver
 
 The class for defining a constraint satisfaction problem (CSP) is quite general, and can be used with many problems. The solver is
