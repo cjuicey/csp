@@ -7,22 +7,22 @@ tie between two non-conflicting solutions. A good idea would be to have a higher
 to attract optimal results.
 
 
-Ex.
+Example
 ---
 We want the 4 cedges of a square to be given names. Possibilities are Billy, Bob, Edward, Mary, Margaret, Sue. Adjacent edges must 
 have different genders. We prefer that the first letters of names of adjacent edges are different.
 
-                                                          Billy ---- Mary
-                                                            |          |
-                                                            |          |
-                                                          Bob  ----- Margaret
+                                                     Billy ---- Mary
+                                                      |          |
+                                                      |          |
+                                                     Bob  ----- Margaret
 
 Is obviously a solution using the traditional min conflicts algorithm. But
 
 
-                                                          Edward ---- Sue
-                                                            |          |
-                                                            |          |
-                                                          Bob  ----- Margaret
+                                                     Edward ---- Sue
+                                                       |          |
+                                                       |          |
+                                                      Bob  ----- Margaret
 
 Is a preferred choice using this version of min conflicts.
