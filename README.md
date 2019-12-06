@@ -20,4 +20,4 @@ Is obviously a solution using the traditional min conflicts algorithm. But
      |          |
     Bridget --- Morris
 
-Is a preferred choice using this version of min conflicts. Bear in min the preffered solution only has a higher chance of being chosen.
+Is a preferred choice using this version of min conflicts. Bear in min the prefered solution only has a higher chance of being chosen.
